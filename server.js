@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 const PORT = process.env.PORT;
 
-app.use(cors({ origin: process.env.CORS_ORIGIN }));
+app.use(cors({ origin: 'https://playcraze.netlify.app'}));
 
 const gameRoutes = require("./routes/game-routes");
 const userRoutes = require("./routes/user-routes");
