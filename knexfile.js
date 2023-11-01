@@ -5,11 +5,13 @@
  */
 
 module.exports = {
-  client: "mysql",
-  connection: {
-    host: "x71wqc4m22j8e3ql.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    user: "dmlo3172seytweel",
-    password: "rhgt636xxyj7i7az",
-    database: "lrdikuhlki15l8vt",
+  development: {
+    client: "mysql",
+    connection: {
+      host: "x71wqc4m22j8e3ql.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      user: "dmlo3172seytweel",
+      password: "rhgt636xxyj7i7az",
+      database: "lrdikuhlki15l8vt",
+    },
   },
 };
